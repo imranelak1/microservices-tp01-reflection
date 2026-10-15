@@ -1,0 +1,17 @@
+Compilation réelle : javac -parameters -encoding UTF-8 (7 fichiers Java)
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+
+$ java presentation.Presentation2 
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+[CONTAINER] DAO instancié : dao.DaoImpl
+[CONTAINER] Métier instancié : metier.MetierImpl
+[DAO] Lecture de la valeur : 100.0
+[METIER] Calcul effectué : 200.0
+Résultats = 200.0
+
+$ java presentation.Presentation2 config-alternative.txt
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+[CONTAINER] DAO instancié : dao.DaoImpl2
+[CONTAINER] Métier instancié : metier.MetierImpl
+[METIER] Calcul effectué : 300.0
+Résultats = 300.0
