@@ -13,6 +13,6 @@ mvn exec:java -Dexec.args=config-alternative.txt
 Le second fichier sélectionne `DaoImpl2` et donne 300 sans modifier le métier. Une configuration incomplète, une classe absente ou un contrat incorrect produit une erreur explicite.
 
 Les captures montrent l'exécution réelle du projet et des tests sur ma machine.
+<img width="1920" height="458" alt="image" src="https://github.com/user-attachments/assets/aca90fce-eb19-451b-8445-eb4149d283f9" />
 
-![Exécution](screenshots/results.png)
 ![Tests](screenshots/tests.png)
